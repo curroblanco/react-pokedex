@@ -5,7 +5,7 @@ import "./logo.css";
 
 const Navbar = () => {
   return (
-    <Nav>
+    <Nav class="Navbar">
       <Logo class="dark-shadow" />
     </Nav>
   );
