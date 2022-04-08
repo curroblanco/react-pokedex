@@ -14,6 +14,6 @@ Pokedex App developed with ReactJS using PokeAPI as BE
 - [ ] Show information regarding Pokémon's movesets
 - [ ] Show information regarding Pokemon's area encounters
 
-# Development V3
+## Developing V3
 - [ ] Add unit testing
 - [ ] Add Redux
