@@ -1,12 +1,14 @@
-import React from "react";
-import { Nav } from "./navbarElements";
-import { ReactComponent as Logo } from "./logo.svg";
-import "./logo.css";
+import './logo.css';
+
+import React from 'react';
+
+import { ReactComponent as Logo } from './logo.svg';
+import { Nav } from './navbarElements';
 
 const Navbar = () => {
   return (
-    <Nav class="Navbar">
-      <Logo class="dark-shadow" />
+    <Nav className="navbar">
+      <Logo className="dark-shadow" />
     </Nav>
   );
 };

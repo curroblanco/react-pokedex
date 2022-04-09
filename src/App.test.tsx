@@ -1,8 +1,6 @@
-import { render } from '@testing-library/react';
-
-import App from './App';
+import { screen } from '@testing-library/react';
 
 test('renders main page', () => {
-  const { container } = render(<App />);
-  expect(container).toHaveClass("Navbar");
+  expect(screen.queryByRole("navbar")).toBeDefined();
+  expect(screen.queryByRole("dark-shadow")).toBeDefined();
 });
